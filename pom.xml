@@ -14,10 +14,26 @@
     </properties>
 
     <dependencies>
-        <!-- JUnit 5 (Jupiter) -->
+        <!-- ✅ JUnit 5 (Jupiter) -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
+            <version>5.12.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- ✅ JUnit 4 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- ✅ Vintage Engine för att köra JUnit 4 i JUnit 5 -->
+        <dependency>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
             <version>5.12.2</version>
             <scope>test</scope>
         </dependency>

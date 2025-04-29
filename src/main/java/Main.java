@@ -1,4 +1,4 @@
-package uppgift1;
+/*package uppgift1;
 
 import java.util.Scanner;
 
@@ -42,4 +42,4 @@ public class Main {
                 System.out.println("❌ Ogiltigt val.");
         }
     }
-}
+}*/
